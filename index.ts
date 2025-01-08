@@ -21,7 +21,7 @@ console.log(startupParts.join("\n"));
 
   const cli = new CLI([
     {
-      title: "Déposer de l'argent",
+      title: "Déposer de l'argents",
       value: "deposit",
       action: () => depositMoney(user),
     },
